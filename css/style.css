@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.top{
+    display: flex;
+    padding: 10px;
+}
+div.top div{
+    padding: 5px;
+}
+
+.navbar ul{
+    width: 50%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
