@@ -77,7 +77,7 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
                 // var_dump($faq);
                 // ciclo con il foreach per estrarre le domande ("q") e le risposte ("a") dal mio array $faq
                 foreach ($faq as $value){
-                    echo $value["q"] . "</br>" . $value["a"] . "</br> </br>";
+                    echo $value["q"] . $value["a"];
                 }
 
             ?>
